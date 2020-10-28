@@ -1,0 +1,65 @@
+{
+   "users":[
+      {
+         "id":1,
+         "name":"caroline hernandez",
+         "image":"https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+         "stories":[{
+           "type":"image",
+             "media":"https://images.unsplash.com/photo-1464030022147-274fa3fb198b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+         ]
+      },
+      {
+         "id":2,
+         "name":"denis agati",
+         "image":"https://images.unsplash.com/photo-1545996124-0501ebae84d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+         "stories":[
+             {
+             "type":"video",
+               "media":"https://alghaidaa.com/upload/stories/KQ7lp.Wedding Rings - 419.mp4"},
+             {
+             "type":"image",
+               "media":"https://images.unsplash.com/photo-1465194331848-b4709877b1d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+         ]
+      },
+      {
+         "id":3,
+         "name":"marina",
+         "image":"https://images.unsplash.com/photo-1578489758854-f134a358f08b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+          "stories":[{
+            "type":"image",
+              "media":"https://images.unsplash.com/photo-1526762336318-43d6b714e080?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+          ]
+      },
+      {
+         "id":4,
+         "name":"gregory hayes",
+         "image":"https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+         "stories":[{
+           "type":"image",
+             "media":"https://images.unsplash.com/photo-1548101240-429802e61d6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+         ]
+      },
+      {
+         "id":5,
+         "name":"gian cescon",
+         "image":"https://images.unsplash.com/photo-1545912453-db258ca9b7b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+         "stories":[{
+           "type":"image",
+             "media":"https://images.unsplash.com/photo-1517079810336-d39e72287591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+         ]
+      },
+      {
+         "id":6,
+         "name":"kayla",
+         "image":"https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+         "stories":[{
+           "type":"image",
+             "media":"https://images.unsplash.com/photo-1600794889627-d47f0c0d451b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80"},{
+                 "type":"image",
+                 "media":"https://images.unsplash.com/photo-1528493366314-e317cd98dd52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+             }
+         ]
+      }
+   ]
+}

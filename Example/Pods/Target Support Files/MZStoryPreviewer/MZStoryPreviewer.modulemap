@@ -1,0 +1,6 @@
+framework module MZStoryPreviewer {
+  umbrella header "MZStoryPreviewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

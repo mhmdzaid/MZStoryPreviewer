@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'MZStoryPreviewer_Example' do
   pod 'MZStoryPreviewer', :path => '../'
-
+  pod 'SDWebImage', '~> 5.0'
   target 'MZStoryPreviewer_Tests' do
     inherit! :search_paths
 

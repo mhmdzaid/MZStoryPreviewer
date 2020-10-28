@@ -1,0 +1,26 @@
+PODS:
+  - MZStoryPreviewer (0.1.0):
+    - SDWebImage (~> 5.0)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
+
+DEPENDENCIES:
+  - MZStoryPreviewer (from `../`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  MZStoryPreviewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MZStoryPreviewer: fa566da5e74989c48641fd87292566e41508843a
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+
+PODFILE CHECKSUM: fc5adaab7c8f4f51c8765ca237b9a892603a2b81
+
+COCOAPODS: 1.9.1
