@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MZStoryPreviewer_Example' do
+  pod 'MZStoryPreviewer', :path => '../'
+
+  target 'MZStoryPreviewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
