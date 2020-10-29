@@ -110,7 +110,7 @@ internal class MZStoryView: UIView {
         addSubview(userNameLabel)
         addSubview(segmentBar) // addSubview(segmentBar)
         addSubview(dismissButton)
-        bringSubview(toFront: segmentBar)
+        bringSubviewToFront(segmentBar)
     }
     
     private func setViewConstraints() {

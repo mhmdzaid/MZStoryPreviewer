@@ -1206,40 +1206,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A2F2E03DF5A9997FD59A880147E4B88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26B0480D3B232D2AA94DBC09EC9F14C /* MZStoryPreviewer.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer.modulemap";
-				PRODUCT_MODULE_NAME = MZStoryPreviewer;
-				PRODUCT_NAME = MZStoryPreviewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D38157800529053AF09511BCB087000 /* Release */ = {
+		561B2B9664B37B9D5EC5E7C77D405DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CCFC16AD2BEA10C26440B5BEAD9D9C0C /* MZStoryPreviewer.release.xcconfig */;
 			buildSettings = {
@@ -1265,7 +1232,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1409,7 +1376,7 @@
 			};
 			name = Release;
 		};
-		9BC9DA7AE038F3C7450203B1552FF5CD /* Debug */ = {
+		85F5110F8C8AF7F892F6403B0DC34862 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41E49F5E729F88D62F0C09B2CF730EA9 /* SDWebImage.debug.xcconfig */;
 			buildSettings = {
@@ -1434,7 +1401,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1536,6 +1503,39 @@
 			};
 			name = Release;
 		};
+		BDF8C575F4464B39E7B1328770CABCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26B0480D3B232D2AA94DBC09EC9F14C /* MZStoryPreviewer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZStoryPreviewer/MZStoryPreviewer.modulemap";
+				PRODUCT_MODULE_NAME = MZStoryPreviewer;
+				PRODUCT_NAME = MZStoryPreviewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C5BDF81EA14F4F1E2E94D635A9DF4314 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B71C428C86295ED740245C9E745A9020 /* Pods-MZStoryPreviewer_Tests.debug.xcconfig */;
@@ -1571,7 +1571,7 @@
 			};
 			name = Debug;
 		};
-		C610759BBD3D77F9E14426C2DA323589 /* Release */ = {
+		E640CDB204830289CD3E1F4ACBEC3DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 521D0B40F4D45181DA5CF0212F0005BE /* SDWebImage.release.xcconfig */;
 			buildSettings = {
@@ -1596,7 +1596,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1637,8 +1637,8 @@
 		FCC78C5DEBCBF1E44479E04D7A77457C /* Build configuration list for PBXNativeTarget "MZStoryPreviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A2F2E03DF5A9997FD59A880147E4B88 /* Debug */,
-				4D38157800529053AF09511BCB087000 /* Release */,
+				BDF8C575F4464B39E7B1328770CABCD3 /* Debug */,
+				561B2B9664B37B9D5EC5E7C77D405DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1646,8 +1646,8 @@
 		FDCA99C2F503B07428E47AF5E15BB8AE /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BC9DA7AE038F3C7450203B1552FF5CD /* Debug */,
-				C610759BBD3D77F9E14426C2DA323589 /* Release */,
+				85F5110F8C8AF7F892F6403B0DC34862 /* Debug */,
+				E640CDB204830289CD3E1F4ACBEC3DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -68,7 +68,7 @@ internal class MZStoryContentView: UIView, CAAnimationDelegate {
         strokeEndAnimation.delegate = self
         strokeEndAnimation.toValue = 1.0
         strokeEndAnimation.duration = duration
-        strokeEndAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        strokeEndAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         strokeEndAnimation.repeatCount = 1
         shape?.add(strokeEndAnimation, forKey: "strokeEndAnimation")
         

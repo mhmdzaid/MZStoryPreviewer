@@ -2,7 +2,8 @@
   "name": "MZStoryPreviewer",
   "version": "0.1.0",
   "summary": "MZStoryPreviewer is a simple reusable component for previewing users stories in an elegant way.",
-  "description": "MZStoryPreviewer is a UI component for previewing users stories in an elegant way.",
+  "swift_versions": "5.0",
+  "description": "MZStoryPreviewer is a UI component for previewing users stories in an elegant way like instagram feature previewing users with gradient Border colors.",
   "homepage": "https://github.com/mozead1996/MZStoryPreviewer",
   "license": {
     "type": "MIT",
@@ -24,5 +25,6 @@
     "SDWebImage": [
       "~> 5.0"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

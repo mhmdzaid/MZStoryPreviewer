@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'MZStoryPreviewer'
   s.version          = '0.1.0'
   s.summary          = 'MZStoryPreviewer is a simple reusable component for previewing users stories in an elegant way.'
-
+  s.swift_versions = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
